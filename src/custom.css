@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.splide__pagination {
+  bottom: -1.5rem;
+}
+.splide__pagination__page.is-active {
+  opacity: 1;
+  transform: unset;
+}
+.splide__pagination__page {
+  opacity: 0.3;
+  width: 20px;
+  height: 3px;
+  border-radius: unset;
+}
