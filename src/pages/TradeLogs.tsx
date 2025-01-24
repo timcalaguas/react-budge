@@ -3,7 +3,7 @@ import TradeLogs from "../components/TradeLogs";
 import useTradeLogs from "../hook/useTradeLogs";
 
 export default function TradeLogsPage() {
-  const { years, totals, addTradeLog, tradeLogs } = useTradeLogs({
+  const { years, tradeLogs } = useTradeLogs({
     limit: null,
   });
 
